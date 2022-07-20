@@ -3,7 +3,7 @@
 ## 1. Project Overview
 League of Legends game analytical tool using Riot Games' API. Allows user to search for a summoner in a region and displays the summoner's level, rank, match history, and game data for all 10 players for each given game.
 
-You can download a compressed tarball (.tgz) which will contain all assets for that patch at https://developer.riotgames.com/docs/lol <br/>
+You can download Riot Games' Data Dragon folder which is a compressed tarball (.tgz) that contains all assets for the latest patch at https://developer.riotgames.com/docs/lol <br/>
 Riot API: https://developer.riotgames.com
 
 ## 2. Development Environment
