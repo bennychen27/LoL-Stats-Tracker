@@ -1,0 +1,92 @@
+@import './colorConstants.css';
+
+.bg-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: sticky;
+    width: 100%;
+    height: 50%;
+    margin: 1rem 0;
+}
+
+.profile-name {
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--white);
+    top: 4%;
+    padding-left: 1rem;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0 10rem 1rem;
+    color: var(--white);
+}
+
+.profile-icon {
+    border-radius: 25%;
+    margin-right: 3rem;
+}
+
+.profile-level {
+    position: relative;
+    left: 12%;
+    color: var(--white);
+    font-weight: 700;
+}
+
+
+.queue-type {
+    font-size: 20px;
+    color: var(--white);
+    text-decoration-line: underline;
+    padding-bottom: 1rem;
+}
+
+
+
+.tier-rank {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.rank-border {
+    margin-right: 1rem;
+}
+
+.rank-info {
+    margin-right: 4rem;
+}
+
+.series-games {
+    color: var(--white);
+    display: flex;
+}
+
+.series-game-win,
+.series-game-loss,
+.series-game-blank {
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: grid;
+    place-content: center;
+    margin-right: 0.5rem;
+}
+
+.series-game-win {
+    background-color: var(--blue);
+}
+
+.series-game-loss {
+    background-color: var(--red);
+}
+
+.series-game-blank {
+    background-color: var(--white);
+}

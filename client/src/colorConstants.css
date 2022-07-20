@@ -1,0 +1,19 @@
+:root{
+    --white: #ffffff;
+    --lightblack: #1c1c1c;
+    --black: #000000;
+    --lightgray: #6f6f6f;
+    --gray: #515163;
+    --grayhover: #282830;
+    --darkgray: #31313c;
+    --lightblue: #a3cfec;
+    --blue: #64b1e4;
+    --darkblue: #1a78ae;
+    --lightred: #e2b6b3;
+    --red: #ff7777;
+    --darkred: #c6443e;
+    --neutral: #ffffcc;
+    --purple: #b266ff;
+    --gold: '#bbb134';
+    --orange: '#cc6600';
+}

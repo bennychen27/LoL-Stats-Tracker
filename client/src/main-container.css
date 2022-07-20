@@ -1,0 +1,211 @@
+@import './colorConstants.css';
+
+.game-number {
+    font-size: 26px;
+    color: var(--white);
+    font-weight: 700;
+    padding-top: 1rem;
+    background: var(--darkgray);
+    text-indent: 1vw;
+}
+
+.main-container {
+    display: flex;
+    height: 7rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: var(--darkgray);
+    padding: 0 1rem 1rem 1rem;
+}
+
+.game {
+    line-height: 0;
+    width: 15%;
+    text-indent: 1rem;
+}
+
+.game-mode {
+    font-weight: 700;
+    font-size: 22px !important;
+    top: 55% !important;
+}
+
+.game-mode,
+.time-stamp {
+    position: relative;
+    top: 73%;
+    color: var(--lightgray);
+    font-size: 12px;
+}
+
+
+.game-duration {
+    position: relative;
+    bottom: 63%;
+}
+
+.game-patch {
+    position: relative;
+    bottom: 10%;
+    font-size: 12px;
+}
+
+.result {
+    text-align: left;
+}
+
+.result-win {
+    position: relative;
+    color: var(--darkblue);
+    top: 15%;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.win {
+    background-color: var(--lightblue);
+    height: 8rem;
+    width: 96vw;
+    border-radius: 0.5rem;
+}
+
+.result-lose {
+    position: relative;
+    color: var(--darkred);
+    top: 15%;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.lose {
+    background-color: var(--lightred);
+    height: 8rem;
+    width: 96vw;
+    border-radius: 0.5rem;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 50% 30% 30%;
+    place-content: center;
+}
+
+.champion {
+    display: inline-flex;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.champion-level {
+    position: relative;
+    color: var(--white);
+    background-color: var(--black);
+    border-radius: 50%;
+    margin-left: -1.2rem;
+    top: -0.1rem;
+}
+
+.spells {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+
+.first-spell {
+    padding-bottom: 0.2rem;
+}
+
+.runes {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.5rem;
+}
+
+.first-rune,
+.second-rune {
+    background-color: var(--darkgray);
+    border-radius: 25%;
+    margin-bottom: 0.2rem;
+}
+
+.kda {
+    padding-top: 2rem;
+    text-align: center;
+    width: 7rem;
+}
+
+.k-d-a {
+    color: var(--gray);
+    font-weight: bold;
+}
+
+.ratio {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--gray);
+    padding: 0.2rem;
+}
+
+.multi-kill {
+    background-color: var(--red);
+    color: var(--white);
+    border-radius: 1rem;
+    font-size: 14px;
+}
+
+.stats {
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 16px;
+}
+
+.kill-participation {
+    color: var(--darkred);
+}
+
+.items-list {
+    margin: 0;
+    padding-left: 0;
+}
+
+.item {
+    display: inline-block;
+    padding-left: 0.2rem;
+}
+
+.trinket {
+    border-radius: 50%;
+}
+
+.participants {
+    display: flex;
+    justify-content: end;
+}
+
+.participant {
+    display: flex;
+    padding-bottom: 0.3rem;
+    position: relative;
+    width: 15rem;
+    top: 5%;
+}
+
+.participant-icon {
+    padding-right: 0.2rem;
+}
+
+.participant-name {
+    overflow: hidden;
+    color: var(--lightgray);
+}
+
+.menu-button {
+    float: right;
+    height: 8rem;
+    width: 2rem;
+    border: none;
+    border-radius: 0 0.5rem 0.5rem 0;
+    cursor: pointer;
+}

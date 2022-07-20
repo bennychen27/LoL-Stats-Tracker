@@ -1,0 +1,29 @@
+@import './colorConstants.css';
+
+.third-container {
+    background-color: var(--darkgray);
+    place-items: center;
+    display: grid;
+    height: 12vh;
+}
+
+.show-more-button {
+    margin: 3vh 0;
+    padding: 1rem;
+    width: 90vw;
+    border: none;
+    background-color: var(--darkgray);
+    border: none;
+    color: var(--white);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1),
+        inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5),
+        0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+}
+
+.show-more-button:hover {
+    background-color: var(--grayhover);
+    cursor: pointer;
+}
