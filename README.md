@@ -1,7 +1,7 @@
 # LoL-Stats-Tracker Project
 
 ## 1. Project Overview
-League of Legends game analytical tool using Riot Games' API
+League of Legends game analytical tool using Riot Games' API. Allows user to search for a summoner in a region and displays the summoner's level, rank, match history, and game data for all 10 players for each given game.
 
 You can download a compressed tarball (.tgz) which will contain all assets for that patch at https://developer.riotgames.com/docs/lol <br/>
 Riot API: https://developer.riotgames.com
@@ -22,3 +22,7 @@ Riot API: https://developer.riotgames.com
    * npm recharts
 	* npm spinners
 	* npm select
+
+
+https://user-images.githubusercontent.com/35055108/179974811-c296e1d6-f611-4e67-ac4e-78fe34f7dda3.mp4
+
